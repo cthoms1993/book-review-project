@@ -1,14 +1,9 @@
-<html>
-<head>
-</head>
-<body>
-
+{% extends 'base.html' %}
+{% block content %}
 {% for review in reviews %}
     {{ review.review_name }}
     {{ review.category_name }}
     {{ review.review_description }}
     {{ review.rating }}
-
 {% endfor %}
-</body>
-</html>
+{% endblock %}
