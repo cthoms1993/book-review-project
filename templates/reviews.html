@@ -1,12 +1,19 @@
 {% extends 'base.html' %}
 {% block content %}
+    <ul class="collapsible" data-collapsible="Accordion">
+        {% for review in reviews %}
+            <li>
+                <div class="collapsible-header"><i
+                        class="material-icons">menu_book</i>{{ review.review_date }} {{ review.book_name }} -
+                    " {{ review.review_name }}"
+                </div>
+                <div class="collapsible-body"><span>{{ review.review_description }}</span>
+                    <div class="row">
+                        Rating : {{ review.rating }}
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
 
-    <ul class="collapsible">
-    {% for review in reviews %}
-     <li>
-      <div class="collapsible-header active"><i class="material-icons">menu_book</i>{{ review.review_date }} {{ review.book_name }} - " {{ review.review_name }}" </div>
-      <div class="collapsible-body"><span>{{ review.review_description }} {{ review.rating }}</span></div>
-    </li>
-  </ul>
-    {% endfor %}
 {% endblock %}
