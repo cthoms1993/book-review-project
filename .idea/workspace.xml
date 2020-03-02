@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/editreview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reviews.html" afterDir="false" />
     </list>
@@ -46,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled6" />
   </component>
   <component name="RunManager">
     <configuration name="book_review" type="Python.FlaskServer">
@@ -89,7 +90,7 @@
       <updated>1582574347711</updated>
       <workItem from="1582574374394" duration="4642000" />
       <workItem from="1582579133729" duration="17221000" />
-      <workItem from="1583069182795" duration="5377000" />
+      <workItem from="1583069182795" duration="8643000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit of procfile and requierements">
       <created>1582575081369</created>
@@ -189,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583178762502</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added edit and delete buttons">
+      <created>1583180033026</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583180033026</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,18 +215,19 @@
     <MESSAGE value="added base.html for template inheritance." />
     <MESSAGE value="linked DB to the collapsible reviews view." />
     <MESSAGE value="added create review page and linked to DB , tested and working correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="added create review page and linked to DB , tested and working correctly" />
+    <MESSAGE value="added edit and delete buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="added edit and delete buttons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="245" y="44" key="CommitChangelistDialog2" timestamp="1583178761657">
+    <state x="245" y="44" key="CommitChangelistDialog2" timestamp="1583180032302">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583178761657" />
+    <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583180032302" />
     <state x="306" y="52" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1582648180542" />
-    <state x="465" y="212" key="FileChooserDialogImpl" timestamp="1583007491764">
+    <state x="465" y="212" key="FileChooserDialogImpl" timestamp="1583182482723">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="465" y="212" key="FileChooserDialogImpl/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583007491764" />
+    <state x="465" y="212" key="FileChooserDialogImpl/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583182482723" />
     <state x="554" y="351" key="Github.ShareDialog" timestamp="1582574810391">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -227,25 +236,25 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="482" y="163" key="Github.UntrackedFilesDialog/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582574825620" />
-    <state width="1224" height="239" key="GridCell.Tab.0.bottom" timestamp="1583180008851">
+    <state width="1224" height="239" key="GridCell.Tab.0.bottom" timestamp="1583183106809">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1224" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583180008851" />
+    <state width="1224" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583183106809" />
     <state width="1224" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
-    <state width="1224" height="239" key="GridCell.Tab.0.center" timestamp="1583180008851">
+    <state width="1224" height="239" key="GridCell.Tab.0.center" timestamp="1583183106809">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1224" height="239" key="GridCell.Tab.0.center/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583180008851" />
+    <state width="1224" height="239" key="GridCell.Tab.0.center/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583183106809" />
     <state width="1224" height="239" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
-    <state width="1224" height="239" key="GridCell.Tab.0.left" timestamp="1583180008851">
+    <state width="1224" height="239" key="GridCell.Tab.0.left" timestamp="1583183106808">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1224" height="239" key="GridCell.Tab.0.left/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583180008851" />
+    <state width="1224" height="239" key="GridCell.Tab.0.left/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583183106808" />
     <state width="1224" height="239" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1583155691723" />
-    <state width="1224" height="239" key="GridCell.Tab.0.right" timestamp="1583180008851">
+    <state width="1224" height="239" key="GridCell.Tab.0.right" timestamp="1583183106809">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1224" height="239" key="GridCell.Tab.0.right/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583180008851" />
+    <state width="1224" height="239" key="GridCell.Tab.0.right/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583183106809" />
     <state width="1224" height="239" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
     <state x="397" y="173" key="MultipleFileMergeDialog" timestamp="1583011026222">
       <screen x="0" y="0" width="1368" height="912" />
@@ -255,10 +264,10 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="491" y="179" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1582648855955" />
-    <state x="277" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583179052764">
+    <state x="277" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583180051647">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583179052764" />
+    <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583180051647" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1582648208461" />
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582649317149">
       <screen x="0" y="0" width="1368" height="912" />
@@ -270,6 +279,6 @@
     <state x="347" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582576332471" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1583180008851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1583183106798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -22,11 +22,30 @@ def add_review():
     return render_template("addreview.html")
 
 
+@app.route('/update_review/<review_id>', methods=['POST'])
+def update_review(review_id):
+    reviews = mongo.db.reviews
+    reviews.update({'_id': ObjectId(review_id)},
+                   {
+                       'review_name': request.form.get('review_name'),
+                       'book_name': request.form.get('book_name'),
+                       'review_description': request.form.get('review_description'),
+                       'rating': request.form.get('rating')
+                   })
+    return redirect(url_for('get_reviews'))
+
+
 @app.route('/insert_review', methods=['POST'])
 def insert_review():
     reviews = mongo.db.reviews
     reviews.insert_one(request.form.to_dict())
     return redirect(url_for('get_reviews'))
+
+
+@app.route('/edit_review/<review_id>')
+def edit_review(review_id):
+    the_review = mongo.db.reviews.find_one({"_id": ObjectId(review_id)})
+    return render_template('editreview.html', review=the_review)
 
 
 if __name__ == '__main__':
