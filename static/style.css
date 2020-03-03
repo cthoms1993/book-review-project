@@ -9,3 +9,17 @@
 .btn_delete{
     width: 80px;
 }
+
+h2{
+    color: #333;
+    text-align: center;
+    padding:10px;
+}
+
+section{
+position:relative;
+    z-index: 2;
+    padding-bottom: 70px;
+    
+
+}

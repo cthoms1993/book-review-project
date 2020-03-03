@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/editreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <updated>1582574347711</updated>
       <workItem from="1582574374394" duration="4642000" />
       <workItem from="1582579133729" duration="17221000" />
-      <workItem from="1583069182795" duration="12181000" />
+      <workItem from="1583069182795" duration="14217000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit of procfile and requierements">
       <created>1582575081369</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583183157338</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="completed edit ability and added delete function. CRUD completed.">
+      <created>1583258103039</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583258103040</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,13 +229,14 @@
     <MESSAGE value="added create review page and linked to DB , tested and working correctly" />
     <MESSAGE value="added edit and delete buttons" />
     <MESSAGE value="wired up edit button to edit review." />
-    <option name="LAST_COMMIT_MESSAGE" value="wired up edit button to edit review." />
+    <MESSAGE value="completed edit ability and added delete function. CRUD completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed edit ability and added delete function. CRUD completed." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="245" y="44" key="CommitChangelistDialog2" timestamp="1583183156634">
+    <state x="245" y="44" key="CommitChangelistDialog2" timestamp="1583258102305">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583183156634" />
+    <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583258102305" />
     <state x="306" y="52" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1582648180542" />
     <state x="465" y="212" key="FileChooserDialogImpl" timestamp="1583182482723">
       <screen x="0" y="0" width="1368" height="912" />
@@ -243,25 +250,25 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="482" y="163" key="Github.UntrackedFilesDialog/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582574825620" />
-    <state width="1326" height="239" key="GridCell.Tab.0.bottom" timestamp="1583258033024">
+    <state width="1326" height="239" key="GridCell.Tab.0.bottom" timestamp="1583264369741">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583258033024" />
+    <state width="1326" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583264369741" />
     <state width="1224" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
-    <state width="1326" height="239" key="GridCell.Tab.0.center" timestamp="1583258033023">
+    <state width="1326" height="239" key="GridCell.Tab.0.center" timestamp="1583264369741">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="239" key="GridCell.Tab.0.center/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583258033023" />
+    <state width="1326" height="239" key="GridCell.Tab.0.center/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583264369741" />
     <state width="1224" height="239" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
-    <state width="1326" height="239" key="GridCell.Tab.0.left" timestamp="1583258033023">
+    <state width="1326" height="239" key="GridCell.Tab.0.left" timestamp="1583264369741">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="239" key="GridCell.Tab.0.left/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583258033023" />
+    <state width="1326" height="239" key="GridCell.Tab.0.left/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583264369741" />
     <state width="1224" height="239" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1583155691723" />
-    <state width="1326" height="239" key="GridCell.Tab.0.right" timestamp="1583258033023">
+    <state width="1326" height="239" key="GridCell.Tab.0.right" timestamp="1583264369741">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="239" key="GridCell.Tab.0.right/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583258033023" />
+    <state width="1326" height="239" key="GridCell.Tab.0.right/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583264369741" />
     <state width="1224" height="239" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
     <state x="397" y="173" key="MultipleFileMergeDialog" timestamp="1583011026222">
       <screen x="0" y="0" width="1368" height="912" />
@@ -271,10 +278,10 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="491" y="179" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1582648855955" />
-    <state x="277" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583183186438">
+    <state x="277" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583258121186">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583183186438" />
+    <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583258121186" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1582648208461" />
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582649317149">
       <screen x="0" y="0" width="1368" height="912" />
@@ -290,6 +297,6 @@
     <state x="347" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582576332471" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1583258033012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1583264369731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
