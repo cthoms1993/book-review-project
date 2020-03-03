@@ -1,25 +1,50 @@
-.btn_small{
-    height:24px;
+.btn_small {
+    height: 24px;
     width: 60px;
     line-height: 24px;
-    margin:5px 5px;
+    margin: 5px 5px;
     padding: 0 0.5em;
 }
 
-.btn_delete{
+.btn_delete {
     width: 80px;
 }
 
-h2{
+h2 {
     color: #333;
     text-align: center;
-    padding:10px;
+    padding: 10px;
 }
 
-section{
-position:relative;
+section {
+    position: relative;
     z-index: 2;
     padding-bottom: 70px;
-    
 
 }
+
+section:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: -50%;
+    top: 0;
+    width: 200%;
+    height: 100%;
+    background: #f1fce2;
+}
+
+section:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    width: 200%;
+    height:100px;
+    background: #6f4f2a;
+    border-bottom: 30px solid  #513a1f;
+}
+
+
+
