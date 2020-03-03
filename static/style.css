@@ -76,6 +76,8 @@ a span{
 ul.book_column {
     list-style-type: none;
     position: relative;
+    box-sizing: border-box;
+    display: inline-block;
     width: 33%;
     padding: 0 4.5rem;
     margin-bottom: 0;
@@ -132,3 +134,20 @@ ul.book_column {
 
 }
 
+@media screen and (max-width: 1200px){
+    ul.book_column{
+        display: block;
+        padding: 0;
+        width:40%;
+        margin: 0 auto;
+
+    }
+
+    ul.book_column:nth-child(1) {
+        z-index: 5;
+    }
+    ul.book_column:nth-child(2){
+        z-index: 4;
+    }
+
+}
