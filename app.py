@@ -1,10 +1,12 @@
 import os
-from flask import Flask, render_template, redirect, request, url_for
+from flask import Flask, render_template, redirect, request, url_for, session
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+import bcrypt
 
 app = Flask(__name__)
 app.config.from_pyfile('env.py')
+app.config["MONGODB_NAME2"] = os.environ.get('MONGODB_NAME2')
 app.config["MONGODB_NAME"] = os.environ.get('MONGODB_NAME')
 app.config["MONGO_URI"] = os.environ.get('MONGO_URI')
 
@@ -12,6 +14,31 @@ mongo = PyMongo(app)
 
 
 @app.route('/')
+def login_page():
+    if 'username' in session:
+        return 'you are logged in as' + session['username']
+    return render_template('login.html')
+
+
+@app.route('/login')
+def login():
+    return ''
+
+
+@app.route('/register', methods=['POST', 'GET'])
+def register():
+    if request.method == 'POST':
+        users = mongo.db.users
+        existing_user = users.find_one({'name': request.form['username']})
+        if existing_user is None:
+            hashpass = bcrypt.hashpw(request.form['pass'].encode('utf-8'), bcrypt.gensalt())
+            users.insert({'name': request.form['username'], 'password': hashpass})
+            session['username'] = request.form['username']
+            return redirect(url_for(login_page))
+        return 'that username already exists'
+    return render_template('register.html')
+
+
 @app.route('/get_reviews')
 def get_reviews():
     return render_template("reviews.html", reviews=mongo.db.reviews.find())

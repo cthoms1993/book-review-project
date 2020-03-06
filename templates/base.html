@@ -17,20 +17,20 @@
     <h2> read and review - the simple online review site</h2>
     <div class="book_container">
         <ul class="book_column">
-            <li><a style="z-index: 2; left:10px" href="#">Sign In</a></li>
-            <li><a style="z-index: 1" href="#">your reviews</a></li>
+            <li><a style="z-index: 2; left:10px" href="{{url_for('add_review')}}">Add review</a></li>
+            <li><a style="z-index: 1" href="#">Your Reviews</a></li>
         </ul>
 
         <ul class="book_column">
             <li><a style="z-index: 3; left: 15px" href="#">recent reviews</a></li>
-            <li><a style="z-index: 2" href="#">All reviews</a></li>
+            <li><a style="z-index: 2" href="{{url_for('get_reviews')}}">All reviews</a></li>
             <li><a style="z-index: 1; left: 25px" href="#">Book store</a></li>
         </ul>
 
         <ul class="book_column">
-            <li><a style="z-index: 3; left: -10px" href="#">About us</a></li>
-            <li><a style="z-index: 2" href="#">Contact us</a></li>
-            <li><a style="z-index: 1; left: 15px" href="#">FAQ</a></li>
+            <li><a style="z-index: 3; left: -10px" href="#">Sign in</a></li>
+            <li><a style="z-index: 2" href="#">Register</a></li>
+            <li><a style="z-index: 1; left: 15px" href="#">Contact us</a></li>
         </ul>
     </div>
 </section>
