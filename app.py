@@ -6,6 +6,7 @@ import bcrypt
 
 app = Flask(__name__)
 app.config.from_pyfile('env.py')
+app.config["SECRET_KEY"] = os.environ.get('SECRET_KEY')
 app.config["MONGODB_NAME2"] = os.environ.get('MONGODB_NAME2')
 app.config["MONGODB_NAME"] = os.environ.get('MONGODB_NAME')
 app.config["MONGO_URI"] = os.environ.get('MONGO_URI')
@@ -14,15 +15,11 @@ mongo = PyMongo(app)
 
 
 @app.route('/')
+@app.route('/login_page')
 def login_page():
     if 'username' in session:
         return 'you are logged in as' + session['username']
     return render_template('login.html')
-
-
-@app.route('/login')
-def login():
-    return ''
 
 
 @app.route('/register', methods=['POST', 'GET'])
@@ -37,6 +34,11 @@ def register():
             return redirect(url_for(login_page))
         return 'that username already exists'
     return render_template('register.html')
+
+
+@app.route('/login')
+def login():
+    return ''
 
 
 @app.route('/get_reviews')
