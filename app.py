@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, redirect, request, url_for, session
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
-import bcrypt
+from flask_bcrypt import bcrypt
 
 app = Flask(__name__)
 app.config.from_pyfile('env.py')
@@ -12,26 +12,28 @@ app.config["MONGODB_NAME"] = os.environ.get('MONGODB_NAME')
 app.config["MONGO_URI"] = os.environ.get('MONGO_URI')
 
 mongo = PyMongo(app)
+users = mongo.db.users
+reviews = mongo.db.reviews
 
 
 @app.route('/')
+@app.route('/login_page')
 def login_page():
     if 'username' in session:
-        return 'You are logged in as ' + session['username']
+        return redirect(url_for('get_reviews'))
 
     return render_template('login.html')
 
 
-@app.route('/login', methods=['POST'])
+@app.route('/login', methods=['GET', 'POST'])
 def login():
-    users = mongo.db.users
     login_user = users.find_one({'name': request.form['username']})
 
     if login_user:
-        if bcrypt.hashpw(request.form['pass'].encode('utf-8'), login_user['password'].encode('utf-8')) == login_user[
-            'password'].encode('utf-8'):
+        if bcrypt.hashpw(request.form['pass'].encode('utf-8'),
+                         login_user['password']) == login_user['password']:
             session['username'] = request.form['username']
-            return redirect(url_for('index'))
+            return redirect(url_for('login_page'))
 
     return 'Invalid username/password combination'
 
@@ -39,13 +41,12 @@ def login():
 @app.route('/register', methods=['POST', 'GET'])
 def register():
     if request.method == 'POST':
-        users = mongo.db.users
         existing_user = users.find_one({'name': request.form['username']})
         if existing_user is None:
             hashpass = bcrypt.hashpw(request.form['pass'].encode('utf-8'), bcrypt.gensalt())
             users.insert({'name': request.form['username'], 'password': hashpass})
             session['username'] = request.form['username']
-            return redirect(url_for('register'))
+            return redirect(url_for('get_reviews'))
 
         return 'that username already exists'
 
@@ -64,7 +65,6 @@ def add_review():
 
 @app.route('/update_review/<review_id>', methods=['POST'])
 def update_review(review_id):
-    reviews = mongo.db.reviews
     reviews.update({'_id': ObjectId(review_id)},
                    {
                        'review_name': request.form.get('review_name'),
@@ -77,7 +77,6 @@ def update_review(review_id):
 
 @app.route('/insert_review', methods=['POST'])
 def insert_review():
-    reviews = mongo.db.reviews
     reviews.insert_one(request.form.to_dict())
     return redirect(url_for('get_reviews'))
 

@@ -2,6 +2,191 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.8.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.8.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.8.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.8.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.8.egg-info/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.8.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.8.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.8.egg-info/version_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.2.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.2.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.2.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.2.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.2.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_bcrypt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine-0.9.5-py3.8.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine-0.9.5-py3.8.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine-0.9.5-py3.8.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine-0.9.5-py3.8.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine-0.9.5-py3.8.egg-info/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine-0.9.5-py3.8.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine-0.9.5-py3.8.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/operation_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/pagination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/panels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/templates/panels/mongo-panel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/wtf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/wtf/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/wtf/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/wtf/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mongoengine/wtf/orm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/csrf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/html5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/i18n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/recaptcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/recaptcha/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/recaptcha/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/recaptcha/widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine-0.19.1-py3.8.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine-0.19.1-py3.8.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine-0.19.1-py3.8.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine-0.19.1-py3.8.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine-0.19.1-py3.8.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine-0.19.1-py3.8.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/base/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/base/datastructures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/base/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/base/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/base/metaclasses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/base/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/context_managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/dereference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/mongodb_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/pymongo_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/python_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/queryset/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/queryset/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/queryset/field_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/queryset/manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/queryset/queryset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/queryset/transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/queryset/visitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mongoengine/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/csrf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/csrf/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/csrf/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/appengine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/appengine/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/appengine/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/appengine/ndb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/csrf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/csrf/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/csrf/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/csrf/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/dateutil/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/dateutil/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/i18n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/orm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/templatetags/wtforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/i18n/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/i18n/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/i18n/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/sqlalchemy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/sqlalchemy/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/sqlalchemy/orm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/fields/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/fields/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/fields/html5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/fields/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/i18n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/wtforms.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/widgets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/widgets/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/widgets/html5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
@@ -87,7 +272,9 @@
       <updated>1582574347711</updated>
       <workItem from="1582574374394" duration="4642000" />
       <workItem from="1582579133729" duration="17221000" />
-      <workItem from="1583069182795" duration="34072000" />
+      <workItem from="1583069182795" duration="44428000" />
+      <workItem from="1583598508865" duration="517000" />
+      <workItem from="1583601829654" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit of procfile and requierements">
       <created>1582575081369</created>
@@ -271,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583529149552</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added log in page - encoding error when signing in.">
+      <created>1583531618571</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583531618571</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,19 +493,20 @@
     <MESSAGE value="navbar complete." />
     <MESSAGE value="started log in pages and username and password database" />
     <MESSAGE value="added html pages for register and log in , register db link added" />
-    <option name="LAST_COMMIT_MESSAGE" value="added html pages for register and log in , register db link added" />
+    <MESSAGE value="added log in page - encoding error when signing in." />
+    <option name="LAST_COMMIT_MESSAGE" value="added log in page - encoding error when signing in." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2197" y="116" key="#Inspections" timestamp="1583531445719">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="2197" y="116" key="#Inspections/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531445719" />
-    <state x="2165" y="44" key="CommitChangelistDialog2" timestamp="1583529148853">
+    <state x="2165" y="44" key="CommitChangelistDialog2" timestamp="1583531617869">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270740237" />
     <state x="306" y="52" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1582648180542" />
-    <state x="2165" y="44" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583529148853" />
+    <state x="2165" y="44" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531617869" />
     <state x="653" y="251" key="FileChooserDialogImpl" timestamp="1583441234414">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -325,34 +520,38 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="482" y="163" key="Github.UntrackedFilesDialog/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582574825620" />
-    <state width="1325" height="239" key="GridCell.Tab.0.bottom" timestamp="1583531380825">
+    <state width="1325" height="192" key="GridCell.Tab.0.bottom" timestamp="1583602144743">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
+    <state width="1224" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657693" />
     <state width="1877" height="239" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1583441388732" />
-    <state width="1325" height="239" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531380825" />
-    <state width="1325" height="239" key="GridCell.Tab.0.center" timestamp="1583531380825">
+    <state width="1325" height="192" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583602144743" />
+    <state width="1325" height="192" key="GridCell.Tab.0.center" timestamp="1583602144742">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="239" key="GridCell.Tab.0.center/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
+    <state width="1224" height="293" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
     <state width="1877" height="239" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1583441388732" />
-    <state width="1325" height="239" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531380825" />
-    <state width="1325" height="239" key="GridCell.Tab.0.left" timestamp="1583531380825">
+    <state width="1325" height="192" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583602144742" />
+    <state width="1325" height="192" key="GridCell.Tab.0.left" timestamp="1583602144742">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="239" key="GridCell.Tab.0.left/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565638" />
     <state width="1224" height="239" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1583155691723" />
+    <state width="1224" height="293" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
     <state width="1877" height="239" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1583441388732" />
-    <state width="1325" height="239" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531380825" />
-    <state width="1325" height="239" key="GridCell.Tab.0.right" timestamp="1583531380825">
+    <state width="1325" height="192" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583602144742" />
+    <state width="1325" height="192" key="GridCell.Tab.0.right" timestamp="1583602144743">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="239" key="GridCell.Tab.0.right/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
+    <state width="1224" height="293" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
     <state width="1877" height="239" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1583441388732" />
-    <state width="1325" height="239" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531380825" />
+    <state width="1325" height="192" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583602144743" />
     <state x="397" y="173" key="MultipleFileMergeDialog" timestamp="1583011026222">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -361,16 +560,20 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="491" y="179" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1582648855955" />
-    <state x="2197" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583529163706">
+    <state x="2197" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583531624054">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270747725" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1582648208461" />
-    <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583529163706" />
+    <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531624054" />
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582649317149">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1368.912@0.0.1368.912" timestamp="1582649317149" />
+    <state x="2297" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1583598514548">
+      <screen x="1920" y="0" width="1368" height="912" />
+    </state>
+    <state x="2297" y="282" key="com.intellij.ide.util.TipDialog/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583598514548" />
     <state x="379" y="254" key="git4idea.merge.GitPullDialog" timestamp="1583183181036">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -381,6 +584,6 @@
     <state x="347" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582576332471" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1583531380825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1583602144730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
