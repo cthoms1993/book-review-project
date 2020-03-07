@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, redirect, request, url_for, session
+from flask import Flask, render_template, redirect, request, url_for, session, flash
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from flask_bcrypt import bcrypt
@@ -17,10 +17,15 @@ reviews = mongo.db.reviews
 
 
 @app.route('/')
+@app.route('/index')
+def index():
+    return render_template('index.html')
+
+
 @app.route('/login_page')
 def login_page():
     if 'username' in session:
-        return redirect(url_for('get_reviews'))
+        return redirect(url_for('account'))
 
     return render_template('login.html')
 
@@ -51,6 +56,13 @@ def register():
         return 'that username already exists'
 
     return render_template('register.html')
+
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    flash(f'Thank you for Reviewing! See you soon.', 'primary')
+    return redirect(url_for('index'))
 
 
 @app.route('/get_reviews')
@@ -91,6 +103,16 @@ def edit_review(review_id):
 def delete_review(review_id):
     mongo.db.reviews.remove({'_id': ObjectId(review_id)})
     return redirect(url_for('get_reviews'))
+
+
+@app.route('/account')
+def account():
+    return render_template('account.html')
+
+
+@app.route('/store')
+def store():
+    return render_template('store.html')
 
 
 if __name__ == '__main__':
