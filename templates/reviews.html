@@ -3,22 +3,17 @@
     <ul class="collapsible">
         {% for review in reviews %}
             <li>
-                <div class="collapsible-header">
-                    <div class="col s3">
-                        <i class="material-icons">menu_book</i>
-                        <a href="{{ url_for('edit_review', review_id=review._id) }}"
-                           class="waves-effect waves-light btn btn_small btn_edit">Edit</a>
-                        <a href="{{ url_for('delete_review', review_id=review._id) }}"class="waves-effect waves-light btn btn_small btn_delete">Delete</a>
-                    </div>
-                    <div class="col s9">
-                        {{ review.review_date }} <strong>{{ review.book_name }}</strong>-
-                        " {{ review.review_name }}"
-                    </div>
-
-                </div>
-                <div class="collapsible-body"><span>{{ review.review_description }}</span>
-                    <div class="row">
-                        Rating : {{ review.rating }}
+                <div class="card border-primary mb-3" style="max-width: 20rem;">
+                    <i class="material-icons">menu_book</i>
+                <a href="{{ url_for('edit_review', review_id=review._id) }}"
+                   class="waves-effect waves-light btn btn_small btn_edit">Edit</a>
+                <a href="{{ url_for('delete_review', review_id=review._id) }}"
+                   class="waves-effect waves-light btn btn_small btn_delete">Delete</a>
+                    <div class="card-header">{{ review.review_name }}</div>
+                    <div class="card-body">
+                        <h4 class="card-title">{{ review.book_name }}</h4>
+                        <p class="card-text">{{ review.review_description }}</p>
+                        <p>{{ review.rating }}</p>
                     </div>
                 </div>
             </li>
