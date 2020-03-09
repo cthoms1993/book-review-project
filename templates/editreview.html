@@ -7,7 +7,8 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">book</i>
-                        <input id="review_name" name="review_name" type="text" class="validate" value="{{ review.review_name }}">
+                        <input id="review_name" name="review_name" type="text" class="validate"
+                               value="{{ review.review_name }}">
                         <label for="icon_prefix">Review Name</label>
                     </div>
                 </div>
@@ -30,8 +31,19 @@
             <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">star</i>
-                    <label for="rating"></label><input id="rating" name="rating" type="text" value="{{ review.rating }}">
+                    <label for="rating"></label><input id="rating" name="rating" type="text"
+                                                       value="{{ review.rating }}">
                     <label for="icon_telephone">Rating</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">star</i>
+                    <label for="username"></label>{% if session['username'] != None %}
+                    <input id="username" name="username" type="text" placeholder="Username"
+                           value="{{ session['username'] }}"
+                           required>{% endif %}
+                    <label for="icon_telephone">Username</label>
                 </div>
             </div>
             <button class="btn waves-effect waves-light" type="submit" name="action">Edit Review

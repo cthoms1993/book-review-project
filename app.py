@@ -82,7 +82,8 @@ def update_review(review_id):
                        'review_name': request.form.get('review_name'),
                        'book_name': request.form.get('book_name'),
                        'review_description': request.form.get('review_description'),
-                       'rating': request.form.get('rating')
+                       'rating': request.form.get('rating'),
+                       'username': request.form.get('username')
                    })
     return redirect(url_for('get_reviews'))
 
@@ -107,7 +108,9 @@ def delete_review(review_id):
 
 @app.route('/account')
 def account():
-    return render_template('account.html')
+    if 'username' not in session:
+        return redirect(url_for('login_page'))
+    return render_template("account.html", reviews=mongo.db.reviews.find({'username': session.get('username')}))
 
 
 @app.route('/store')
