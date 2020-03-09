@@ -24,7 +24,7 @@
                 <div class="input-field col s12">
                     <i class="material-icons prefix">create</i>
                     <label for="review_description"></label><textarea id="review_description" name="review_description"
-                                                                      class="materialize-textarea">{{ review.review_description }}</textarea>
+                                                                      class="textarea">{{ review.review_description }}</textarea>
                     <label for="icon_telephone">Review</label>
                 </div>
             </div>
@@ -44,6 +44,13 @@
                            value="{{ session['username'] }}"
                            required>{% endif %}
                     <label for="icon_telephone">Username</label>
+                </div>
+            </div>
+        <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">star</i>
+                    <label for="Date"></label><input id="date" name="date" type="text" placeholder="Todays Date">
+                    <label for="icon_telephone">Date</label>
                 </div>
             </div>
             <button class="btn waves-effect waves-light" type="submit" name="action">Edit Review

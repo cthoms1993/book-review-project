@@ -6,13 +6,13 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card bg-warning border-primary mb-3">
-                        <i class="material-icons">menu_book</i>
-                        <div class="card-header">{{ review.review_name }}</div>
+                        <div class="card-header"><i class="fas fa-heading"></i> {{ review.review_name }}</div>
                         <div class="card-body">
-                            <h4 class="card-title">{{ review.book_name }}</h4>
+                            <h4 class="card-title"> <i class="fas fa-book"></i> {{ review.book_name }}</h4>
                             <p class="card-text">{{ review.review_description }}</p>
                             <p>{{ review.rating }}</p>
                             <p>{{ review.username }}</p>
+                            <p>{{ review.date }}</p>
                         </div>
                     </div>
                 </div>
