@@ -63,7 +63,6 @@ def register():
 @app.route('/logout')
 def logout():
     session.clear()
-    flash(f'Thank you for Reviewing! See you soon.', 'primary')
     return redirect(url_for('index'))
 
 
@@ -88,7 +87,7 @@ def update_review(review_id):
                        'username': request.form.get('username'),
                        'date': request.form.get('date')
                    })
-    return redirect(url_for('get_reviews'))
+    return redirect(url_for('account'))
 
 
 @app.route('/insert_review', methods=['POST'])
