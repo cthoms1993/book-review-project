@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>Your Reviews</h1>
+    <h1 class="main-title">Your Reviews</h1>
     {% for review in reviews %}
         <div class="card bg-info mb-3">
             <h3 class="card-header">"{{ review.review_name }}"</h3>
