@@ -3,57 +3,53 @@
     <h3> Add Review</h3>
     <div class="row">
         <form action="{{ url_for('insert_review') }}" method="POST" class="col s12">
-            <div class="row">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">book</i>
-                        <input id="review_name" name="review_name" type="text" class="validate">
-                        <label for="icon_prefix">Review Name</label>
-                    </div>
-                </div>
+
+            <div class="form-group">
+                <label for="review_name">Review Name:</label>
+                <input type="text" class="form-control" id="review_name" aria-describedby="review_name"
+                       name="review_name"
+                       placeholder="Enter review name">
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">menu_book</i>
-                    <label for="book_name"></label><input id="book_name" name="book_name" type="text">
-                    <label for="icon_telephone">Book Name</label>
-                </div>
+            <div class="form-group">
+                <label for="book_name">Book Title:</label>
+                <input type="text" class="form-control" id="book_name" name="book_name" placeholder="Book Title">
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">create</i>
-                    <label for="review_description"></label><textarea id="review_description" name="review_description"
-                                                                      class="textarea"></textarea>
-                    <label for="icon_telephone">Review</label>
-                </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Author:</label>
+                <input type="text" class="form-control" id="author" name="author" placeholder="Author">
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">star</i>
-                    <label for="rating"></label><input id="rating" name="rating" type="text" placeholder="from 1 to 5">
-                    <label for="icon_telephone">Rating</label>
-                </div>
+            <div class="form-group">
+                <label for="review_description">Review:</label>
+                <textarea class="form-control" id="review_description" rows="5" name="review_description"></textarea>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">star</i>
-                    <label for="username"></label>{% if session['username'] != None %}
-                    <input id="username" name="username" type="text" placeholder="Username"
-                           value="{{ session['username'] }}"
-                           required>{% endif %}
-                    <label for="icon_telephone">Username</label>
-                </div>
+            <div class="form-group">
+                <label for="rating_select">Rating</label>
+                <select class="form-control" id="rating" name="rating" type="text">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">star</i>
-                    <label for="Date"></label><input id="date" name="date" type="text" placeholder="Todays Date">
-                    <label for="icon_telephone">Date</label>
-                </div>
+            <div class="form-group">
+                <label for="exampleInputFile">upload Book Cover</label>
+                <input type="file" class="form-control-file" id="book_cover" aria-describedby="fileHelp">
             </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit Review
-                <i class="material-icons right">done</i>
-            </button>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="text" class="form-control" id="review_name" aria-describedby="review_name"
+                       name="date"
+                       placeholder="Enter Date">
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>{% if session['username'] != None %}
+                <input id="username" name="username" type="text" placeholder="Username"
+                       value="{{ session['username'] }}" disabled=""
+                       required>{% endif %}
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit</button>
         </form>
     </div>
 

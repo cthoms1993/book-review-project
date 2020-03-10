@@ -11,16 +11,16 @@
       <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}" type="text/css"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css"/>
 
-    <title>Document</title>
+    <title>Book Review Site</title>
 </head>
 <body>
 <section>
-    <h2> read and review - the simple online review site</h2>
+    <h1 class="text-center"> read and review - the simple online review site</h1>
 
     <div class="book_container">
         <ul class="book_column">
             <li><a style="z-index: 2; left:10px" href="{{ url_for('add_review') }}">Add review</a></li>
-            <li><a style="z-index: 1" href="{{ url_for('account') }}">your account</a></li>
+            <li><a style="z-index: 1" href="{{ url_for('account') }}">Your Reviews</a></li>
         </ul>
 
         <ul class="book_column">
