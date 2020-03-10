@@ -85,7 +85,9 @@ def update_review(review_id):
                        'review_description': request.form.get('review_description'),
                        'rating': request.form.get('rating'),
                        'username': request.form.get('username'),
-                       'date': request.form.get('date')
+                       'author': request.form.get('author'),
+                       'date': request.form.get('date'),
+                       'book_cover': request.form.get('book_cover')
                    })
     return redirect(url_for('account'))
 

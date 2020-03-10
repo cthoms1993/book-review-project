@@ -2,26 +2,24 @@
 {% block content %}
     <h1>Your Reviews</h1>
     {% for review in reviews %}
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card bg-warning border-primary mb-3">
-                        <div class="row">
-                        <a href="{{ url_for('edit_review', review_id=review._id) }}"
-                           class="btn btn_small btn-info btn_edit">Edit</a>
-                        <a href="{{ url_for('delete_review', review_id=review._id) }}"
-                           class="btn btn_small btn-danger btn_delete">Delete</a>
-                        </div>
-                        <div class="card-header"><i class="fas fa-heading"></i> "{{ review.review_name }}"</div>
-                        <div class="card-body">
-                            <h4 class="card-title"><i class="fas fa-book"></i> {{ review.book_name }}</h4>
-                            <p class="card-text"><i class="fas fa-comment"></i> "{{ review.review_description }}"</p>
-                            <p class="card-text"><i class="fas fa-star"></i> {{ review.rating }}</p>
-                            <p class="card-text"><i class="fas fa-user"></i> {{ review.username }}</p>
-                            <p class="card-text"><i class="fas fa-calendar-day"></i> {{ review.date }}</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="card bg-info mb-3">
+            <h3 class="card-header">"{{ review.review_name }}"</h3>
+            <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-book"></i> {{ review.book_name }}</h3>
+                <h4 class="card-subtitle "><i class="fas fa-user-edit"></i> By {{ review.author }}</h4>
+            </div>
+            <div class="card-body">
+                <h4 class="card-subtitle"><i class="fas fa-comment"></i> Review:"{{ review.review_description }}"</h4>
+            </div>
+            <div class="card-body">
+                <h3> Rating: {{ review.rating }} <i class="fas fa-star"></i></h3>
+                <h3><i class="fas fa-user"></i> Review by: {{ review.username }}</h3>
+            </div>
+            <div class="card-body">
+                <a class="card-link btn-primary btn" href="#">Buy Book</a>
+            </div>
+            <div class="card-footer">
+                {{ review.date }}
             </div>
         </div>
     {% endfor %}
