@@ -48,6 +48,8 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-success">Submit</button>
+                  <a href="{{ url_for('account', review_id=review._id) }}"
+                   class="btn btn_small btn-danger btn_delete">Cancel</a>
             </div>
 
         </form>
