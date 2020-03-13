@@ -1,8 +1,8 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="row card bg-warning">
+    <div class="row card bg-warning edit-form">
         <form action="{{ url_for('update_review', review_id=review._id) }}" method="POST" class="col s12">
-            <h1> Edit Review</h1>
+            <h1>Edit Review</h1>
             <div class="form-group">
                 <label for="review_name"><h3>Review Name:</h3></label>
                 <input type="text" class="form-control" id="review_name" aria-describedby="review_name"
