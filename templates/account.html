@@ -1,6 +1,17 @@
 {% extends 'base.html' %}
 {% block content %}
-        <h1 class="main-title account-title">Your Reviews</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-dismissible success">
+                    <button class="close" type="button" data-dismiss="alert">&times;</button>
+                    <strong>{{ message }}</strong>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <br>
+    <h1 class="main-title account-title">Your Reviews</h1>
     {% for review in reviews %}
         <div class="account-card card bg-info mb-3">
             <h3 class="account-header card-header">"{{ review.review_name }}"</h3>

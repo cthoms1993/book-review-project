@@ -27,6 +27,7 @@ def index():
 @app.route('/login_page')
 def login_page():
     if 'username' in session:
+        flash('You are logged in')
         return redirect(url_for('account'))
 
     return render_template('login.html')
@@ -58,6 +59,7 @@ def register():
             hashpass = bcrypt.hashpw(request.form['pass'].encode('utf-8'), bcrypt.gensalt())
             users.insert({'name': request.form['username'], 'password': hashpass})
             session['username'] = request.form['username']
+            flash('account successfully created!')
 
             return redirect(url_for('get_reviews'))
 
@@ -78,7 +80,8 @@ def get_reviews():
 @app.route('/add_review')
 def add_review():
     if 'username' not in session:
-        return redirect(url_for('login_page') + '#logInModal')
+        flash('You must be logged in to leave a review')
+        return redirect(url_for('login_page'))
 
     return render_template("addreview.html")
 
@@ -120,6 +123,7 @@ def delete_review(review_id):
 @app.route('/account')
 def account():
     if 'username' not in session:
+        flash('you must be logged in to view your reviews')
         return redirect(url_for('login_page'))
     return render_template("account.html", reviews=mongo.db.reviews.find({'username': session.get('username')}))
 

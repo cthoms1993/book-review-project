@@ -1,8 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
-      {% if success %}
-                    <h3>{{ get_flashed_messages }}</h3>
-                {% endif %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-dismissible alert-success">
+                    <button class="close" type="button" data-dismiss="alert">&times;</button>
+                    <strong>{{ message }}</strong>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <br>
     <h1 class="main-title">All reviews</h1>
     {% for review in reviews %}
         <div class="card bg-info mb-3">
@@ -19,12 +27,15 @@
                 <h3><i class="fas fa-user"></i> Review by: {{ review.username }}</h3>
             </div>
             <div class="card-body">
-                <a class="card-link btn-primary btn" href="https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239" target="_blank">Buy Book</a>
+                <a class="card-link btn-primary btn"
+                   href="https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239" target="_blank">Buy
+                    Book</a>
             </div>
             <div class="card-footer">
                 <h4><i class="fas fa-calendar-day"></i> {{ review.date }}</h4>
             </div>
         </div>
     {% endfor %}
+
 
 {% endblock %}
