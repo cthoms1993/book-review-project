@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1 class="main-title account-title">Your Reviews</h1>
+        <h1 class="main-title account-title">Your Reviews</h1>
     {% for review in reviews %}
         <div class="account-card card bg-info mb-3">
             <h3 class="account-header card-header">"{{ review.review_name }}"</h3>
@@ -17,7 +17,9 @@
                 <h3><i class="fas fa-user"></i> Review by: {{ review.username }}</h3>
             </div>
             <div class="account-body card-body">
-                <a class="card-link btn-primary btn" href="https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239" target="_blank">Buy Book</a>
+                <a class="card-link btn-primary btn"
+                   href="https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239" target="_blank">Buy
+                    Book</a>
                 <a href="{{ url_for('edit_review', review_id=review._id) }}"
                    class=" card-link btn btn_small btn-warning btn_edit">Edit</a>
                 <a href="{{ url_for('delete_review', review_id=review._id) }}"

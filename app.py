@@ -35,27 +35,31 @@ def login_page():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     login_user = users.find_one({'name': request.form['username']})
-
     if login_user:
         if bcrypt.hashpw(request.form['pass'].encode('utf-8'),
                          login_user['password']) == login_user['password']:
             session['username'] = request.form['username']
-            return redirect(url_for('login_page'))
+        return redirect(url_for('login_page'))
+    else:
+        flash('incorrect username/and or password,please try again')
 
-    return 'Invalid username/password combination'
+    return render_template('login.html')
 
 
 @app.route('/register', methods=['POST', 'GET'])
 def register():
     if request.method == 'POST':
         existing_user = users.find_one({'name': request.form['username']})
-        if existing_user is None:
+        if existing_user:
+            flash('username already taken please try again')
+
+        else:
+
             hashpass = bcrypt.hashpw(request.form['pass'].encode('utf-8'), bcrypt.gensalt())
             users.insert({'name': request.form['username'], 'password': hashpass})
             session['username'] = request.form['username']
-            return redirect(url_for('get_reviews'))
 
-        return 'that username already exists'
+            return redirect(url_for('get_reviews'))
 
     return render_template('register.html')
 
@@ -73,6 +77,9 @@ def get_reviews():
 
 @app.route('/add_review')
 def add_review():
+    if 'username' not in session:
+        return redirect(url_for('login_page') + '#logInModal')
+
     return render_template("addreview.html")
 
 
