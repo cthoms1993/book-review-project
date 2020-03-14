@@ -1,12 +1,24 @@
 {% extends 'base.html' %}
 {% block content %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-dismissible alert-danger">
+                    <button class="close" type="button" data-dismiss="alert">&times;</button>
+                    <strong>{{ message }}</strong>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <br>
     <div class="jumbotron bg-info text-center">
-  <h1 class="display-3">Read and review - The simple online book review site!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Sign in</a>
-  </p>
-</div>
+        <h1 class="display-3">Read and review - The simple online book review site!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+            featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{{ url_for('login_page') }}" role="button">Sign in</a>
+        </p>
+    </div>
 {% endblock %}

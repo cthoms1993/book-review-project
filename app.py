@@ -69,6 +69,7 @@ def register():
 @app.route('/logout')
 def logout():
     session.clear()
+    flash('you have logged out')
     return redirect(url_for('index'))
 
 
@@ -117,6 +118,7 @@ def edit_review(review_id):
 @app.route('/delete_review/<review_id>')
 def delete_review(review_id):
     mongo.db.reviews.remove({'_id': ObjectId(review_id)})
+    flash('review has been deleted')
     return redirect(url_for('account'))
 
 

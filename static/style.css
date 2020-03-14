@@ -6,142 +6,14 @@ body {
 
 }
 
-.main-title{
-    color:black;
+/*------icons-----*/
+.book-icon{
+    color: darkred;
 }
-h2 {
-    color: #333;
-    text-align: center;
-    padding: 10px;
-}
-
-section {
-    position: relative;
-    z-index: 2;
-    padding-bottom: 70px;
-
+.star-icon{
+    color: gold;
 }
 
-section:before {
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: -1;
-    left: -50%;
-    top: 0;
-    width: 200%;
-    height: 100%;
-    background: #f1fce2;
+.review-icon{
+    color: lawngreen;
 }
-
-section:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: -50%;
-    width: 200%;
-    height: 100px;
-    background: #6f4f2a;
-    border-bottom: 30px solid #513a1f;
-}
-
-a {
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-a span{
-    font-size: 13px;
-    display: block;
-    font-weight: 500;
-
-}
-
-.book_container {
-    position: relative;
-    width: 90%;
-    padding-top: 5rem;
-    margin: 0 auto;
-
-}
-
-ul.book_column {
-    list-style-type: none;
-    position: relative;
-    box-sizing: border-box;
-    display: inline-block;
-    width: 33%;
-    padding: 0 4.5rem;
-    margin-bottom: 0;
-   /* box-sizing: border-box;*/
-
-}
-
-.book_column li {
-    margin-bottom: 3px;
-
-}
-
-.book_column li a {
-    position: relative;
-    display: block;
-    padding: 0.9375rem;
-    color: #555;
-    font-weight: 600;
-    line-height: 1.4;
-    background-color: #ffb142;
-    transition: 250ms;
-
-
-}
-
-.book_column li a:before,
-.book_column li a:after {
-    content: "";
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    transition: all 300ms;
-}
-
-.book_column li a:before {
-    top: -16px;
-    right: 100%;
-    width: 3.5rem;
-    transform: skewY(31deg);
-    border-bottom: 3px solid #ffda79;
-    background-color: #fff;
-    box-sizing: border-box;
-
-
-}
-
-.book_column li a:after {
-    bottom: 100%;
-    left: -28px;
-    height: 2rem;
-    transform: skew(60deg);
-    background-color: #ffda79;
-
-}
-
-@media screen and (max-width: 1200px){
-    ul.book_column{
-        display: block;
-        padding: 0;
-        width:40%;
-        margin: 0 auto;
-
-    }
-
-    ul.book_column:nth-child(1) {
-        z-index: 5;
-    }
-    ul.book_column:nth-child(2){
-        z-index: 4;
-    }
-
-}
-

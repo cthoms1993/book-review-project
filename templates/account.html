@@ -3,7 +3,7 @@
     {% with messages = get_flashed_messages() %}
         {% if messages %}
             {% for message in messages %}
-                <div class="alert alert-dismissible success">
+                <div class="alert alert-dismissible alert-success">
                     <button class="close" type="button" data-dismiss="alert">&times;</button>
                     <strong>{{ message }}</strong>
                 </div>
@@ -16,15 +16,17 @@
         <div class="account-card card bg-info mb-3">
             <h3 class="account-header card-header">"{{ review.review_name }}"</h3>
             <div class="account-body card-body">
-                <h3 class="card-title"><i class="fas fa-book"></i> {{ review.book_name }}</h3>
+                <h3 class="card-title"><span class="book-icon"><i class="fas fa-book"></i></span> {{ review.book_name }}
+                </h3>
                 <h4 class="card-subtitle "><i class="fas fa-user-edit"></i> By {{ review.author }}</h4>
             </div>
             <div class="account-body card-body">
-                <h4 class="card-subtitle"><i class="fas fa-comment"></i> Review:"{{ review.review_description }}"
+                <h4 class="card-subtitle"><span class="review-icon"><i class="fas fa-comment"></i></span> Review:"{{ review.review_description }}"
                 </h4>
             </div>
             <div class="account-body card-body">
-                <h3> Rating: {{ review.rating }} <i class="fas fa-star"></i></h3>
+                <h3> Rating: {{ review.rating }} <span class="star-icon"><i class="fas fa-star"></i></span></h3>
+                <br>
                 <h3><i class="fas fa-user"></i> Review by: {{ review.username }}</h3>
             </div>
             <div class="account-body card-body">
