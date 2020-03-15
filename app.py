@@ -19,11 +19,13 @@ reviews = mongo.db.reviews
 @app.route('/')
 @app.route('/index')
 def index():
+    """landing page render"""
     return render_template('index.html')
 
 
 @app.route('/login_page')
 def login_page():
+    """creates the ability to log in to your account if your username is recognised."""
     if 'username' in session:
         flash('You are logged in')
         return redirect(url_for('account'))
@@ -33,6 +35,8 @@ def login_page():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    """User Login. If Username or password not found in MongoDB db 'users', flash message
+        and redirect user to try again on Login page."""
     login_user = users.find_one({'name': request.form['username']})
     if login_user:
         if bcrypt.hashpw(request.form['pass'].encode('utf-8'),
@@ -46,6 +50,9 @@ def login():
 
 @app.route('/register', methods=['POST', 'GET'])
 def register():
+    """User Registration. If Username is not taken and stored in MongoDB db
+        'users'. Hashing passwords using Bcrypt.If username is already taken message flashed to user
+        detailing same, if not on DB then account is created and redirected to your reviews page with flash message"""
     if request.method == 'POST':
         existing_user = users.find_one({'name': request.form['username']})
         if existing_user:
@@ -62,6 +69,7 @@ def register():
 
 @app.route('/logout')
 def logout():
+    """logs the user currently logged in out of the session."""
     session.clear()
     flash('you have logged out')
     return redirect(url_for('index'))
@@ -69,11 +77,13 @@ def logout():
 
 @app.route('/get_reviews')
 def get_reviews():
+    """displays all reviews in the reviews collection on the public review page"""
     return render_template("reviews.html", reviews=mongo.db.reviews.find())
 
 
 @app.route('/add_review')
 def add_review():
+    """ adds a new review to the database"""
     if 'username' not in session:
         flash('You must be logged in to leave a review')
         return redirect(url_for('login_page'))
@@ -83,6 +93,7 @@ def add_review():
 
 @app.route('/update_review/<review_id>', methods=['POST'])
 def update_review(review_id):
+    """updates the review user has edited or changed"""
     reviews.update({'_id': ObjectId(review_id)},
                    {
                        'review_name': request.form.get('review_name'),
@@ -105,12 +116,14 @@ def insert_review():
 
 @app.route('/edit_review/<review_id>')
 def edit_review(review_id):
-    the_review = mongo.db.reviews.find_one({"_id": ObjectId(review_id)})
+    """edits the chosen review"""
+    the_review = reviews.find_one({"_id": ObjectId(review_id)})
     return render_template('editreview.html', review=the_review)
 
 
 @app.route('/delete_review/<review_id>')
 def delete_review(review_id):
+    """removes review from the database"""
     mongo.db.reviews.remove({'_id': ObjectId(review_id)})
     flash('review has been deleted')
     return redirect(url_for('account'))
@@ -118,6 +131,7 @@ def delete_review(review_id):
 
 @app.route('/account')
 def account():
+    """directs the user to there "my reviews"" page"""
     if 'username' not in session:
         flash('you must be logged in to view your reviews')
         return redirect(url_for('login_page'))
@@ -126,6 +140,7 @@ def account():
 
 @app.route('/store')
 def store():
+    """still in development"""
     return render_template('store.html')
 
 
