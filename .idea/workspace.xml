@@ -4,7 +4,6 @@
     <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <workItem from="1583598508865" duration="517000" />
       <workItem from="1583601829654" duration="49912000" />
       <workItem from="1584166045906" duration="19822000" />
-      <workItem from="1584279156791" duration="3312000" />
+      <workItem from="1584279156791" duration="4647000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit of procfile and requierements">
       <created>1582575081369</created>
@@ -438,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584279178140</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="flash errors not showing up">
+      <created>1584283905168</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1584283905168</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +453,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="all books added to navbar" />
     <MESSAGE value="navbar complete." />
     <MESSAGE value="started log in pages and username and password database" />
     <MESSAGE value="added html pages for register and log in , register db link added" />
@@ -472,21 +477,22 @@
     <MESSAGE value="added flash errors for username already taken and incorrect log in details" />
     <MESSAGE value="added flash warnings for logged in and registered" />
     <MESSAGE value="custom colour to icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom colour to icons" />
+    <MESSAGE value="flash errors not showing up" />
+    <option name="LAST_COMMIT_MESSAGE" value="flash errors not showing up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2197" y="116" key="#Inspections" timestamp="1583531445719">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="2197" y="116" key="#Inspections/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531445719" />
-    <state x="2165" y="44" key="CommitChangelistDialog2" timestamp="1584279176081">
+    <state x="2165" y="44" key="CommitChangelistDialog2" timestamp="1584283904354">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="-2491" y="44" key="CommitChangelistDialog2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855858681" />
     <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270740237" />
     <state x="306" y="52" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1582648180542" />
     <state x="344" y="52" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584178237139" />
-    <state x="2165" y="44" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584279176081" />
+    <state x="2165" y="44" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584283904354" />
     <state x="653" y="251" key="FileChooserDialogImpl" timestamp="1583441234414">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -500,7 +506,7 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="482" y="163" key="Github.UntrackedFilesDialog/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582574825620" />
-    <state width="1325" height="132" key="GridCell.Tab.0.bottom" timestamp="1584283581913">
+    <state width="1325" height="132" key="GridCell.Tab.0.bottom" timestamp="1584285372968">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.bottom/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
@@ -509,8 +515,8 @@
     <state width="1224" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
     <state width="1224" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657693" />
     <state width="1877" height="192" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584184714801" />
-    <state width="1325" height="132" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584283581913" />
-    <state width="1325" height="132" key="GridCell.Tab.0.center" timestamp="1584283581912">
+    <state width="1325" height="132" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584285372968" />
+    <state width="1325" height="132" key="GridCell.Tab.0.center" timestamp="1584285372968">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.center/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
@@ -519,8 +525,8 @@
     <state width="1224" height="239" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
     <state width="1224" height="293" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
     <state width="1877" height="192" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584184714801" />
-    <state width="1325" height="132" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584283581912" />
-    <state width="1325" height="132" key="GridCell.Tab.0.left" timestamp="1584283581912">
+    <state width="1325" height="132" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584285372968" />
+    <state width="1325" height="132" key="GridCell.Tab.0.left" timestamp="1584285372968">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.left/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
@@ -529,8 +535,8 @@
     <state width="1224" height="239" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1583155691723" />
     <state width="1224" height="293" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
     <state width="1877" height="192" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584184714801" />
-    <state width="1325" height="132" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584283581912" />
-    <state width="1325" height="132" key="GridCell.Tab.0.right" timestamp="1584283581913">
+    <state width="1325" height="132" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584285372968" />
+    <state width="1325" height="132" key="GridCell.Tab.0.right" timestamp="1584285372968">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.right/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
@@ -539,7 +545,7 @@
     <state width="1224" height="239" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
     <state width="1224" height="293" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
     <state width="1877" height="192" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584184714801" />
-    <state width="1325" height="132" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584283581913" />
+    <state width="1325" height="132" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584285372968" />
     <state x="397" y="173" key="MultipleFileMergeDialog" timestamp="1583011026222">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -548,14 +554,14 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="491" y="179" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1582648855955" />
-    <state x="2197" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584279194906">
+    <state x="2197" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584283931154">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="-2459" y="190" key="Vcs.Push.Dialog.v2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855865983" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270747725" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1582648208461" />
     <state x="389" y="225" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584178242541" />
-    <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584279194906" />
+    <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584283931154" />
     <state x="131" y="110" width="1658" height="859" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583701792672">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -572,6 +578,10 @@
     <state x="379" y="254" key="git4idea.merge.GitPullDialog/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583183181036" />
     <state x="532" y="301" key="git4idea.merge.GitPullDialog/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584131326153" />
     <state x="2299" y="254" key="git4idea.merge.GitPullDialog/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584279189219" />
+    <state x="2396" y="357" key="git4idea.ui.GitStashDialog" timestamp="1584283925669">
+      <screen x="1920" y="0" width="1368" height="912" />
+    </state>
+    <state x="2396" y="357" key="git4idea.ui.GitStashDialog/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584283925669" />
     <state x="488" y="231" width="944" height="803" key="search.everywhere.popup" timestamp="1584137991379">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -580,6 +590,6 @@
     <state x="2268" y="195" width="672" height="678" key="search.everywhere.popup/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583876003589" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1584283581900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1584285372955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
