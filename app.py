@@ -38,9 +38,9 @@ def login():
         if bcrypt.hashpw(request.form['pass'].encode('utf-8'),
                          login_user['password']) == login_user['password']:
             session['username'] = request.form['username']
+        else:
+            flash('incorrect username/and or password,please try again')
         return redirect(url_for('login_page'))
-    else:
-        flash('incorrect username/and or password,please try again')
 
     return render_template('login.html')
 
@@ -51,16 +51,14 @@ def register():
         existing_user = users.find_one({'name': request.form['username']})
         if existing_user:
             flash('username already taken please try again')
-
         else:
-
             hashpass = bcrypt.hashpw(request.form['pass'].encode('utf-8'), bcrypt.gensalt())
             users.insert({'name': request.form['username'], 'password': hashpass})
             session['username'] = request.form['username']
             flash('account successfully created!')
 
-            return redirect(url_for('get_reviews'))
-
+        return redirect(url_for('get_reviews'))
+    
     return render_template('register.html')
 
 
