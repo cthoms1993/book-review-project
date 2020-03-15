@@ -3,7 +3,6 @@ from flask import Flask, render_template, redirect, request, url_for, session, f
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from flask_bcrypt import bcrypt
-from datetime import datetime
 
 app = Flask(__name__)
 app.config.from_pyfile('env.py')
@@ -15,7 +14,6 @@ app.config["MONGO_URI"] = os.environ.get('MONGO_URI')
 mongo = PyMongo(app)
 users = mongo.db.users
 reviews = mongo.db.reviews
-dateTimeObj = datetime.now()
 
 
 @app.route('/')

@@ -1,59 +1,63 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="row card bg-warning edit-form">
-        <form action="{{ url_for('update_review', review_id=review._id) }}" method="POST" class="col s12">
-            <h1>Edit Review</h1>
-            <div class="form-group">
-                <label for="review_name"><h3>Review Name:</h3></label>
-                <input type="text" class="form-control" id="review_name" aria-describedby="review_name"
-                       name="review_name" value="{{ review.review_name }}"
-                       placeholder="Enter review name">
-            </div>
-            <div class="form-group">
-                <label for="book_name"><h3>Book Title:</h3></label>
-                <input type="text" class="form-control" id="book_name" name="book_name" placeholder="Book Title"
-                       value="{{ review.book_name }}">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1"><h3>Author:</h3></label>
-                <label for="author"></label><input type="text" class="form-control" id="author" name="author"
-                                                   placeholder="Author" value="{{ review.author }}">
-            </div>
-            <div class="form-group">
-                <label for="review_description"><h3>Review:</h3></label>
-                <textarea class="form-control" id="review_description" rows="5"
-                          name="review_description">{{ review.review_description }}</textarea>
-            </div>
-            <div class="form-group">
-                <label for="rating_select"><h3>Rating</h3></label>
-                <label for="rating"></label><select class="form-control" id="rating" name="rating" type="text">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-            </div>
-            <div class="form-group">
-                <label for="date"><h3>Date:</h3></label>
-                <input type="text" class="form-control" id="date" aria-describedby="date" value="{{ review.date }}"
-                       name="date"
-                       placeholder="Enter Date">
-            </div>
-            <div class="form-group">
-                <label for="username"><h3>Username</h3></label>{% if session['username'] != None %}
-                <input id="username" name="username" type="text" placeholder="Username"
-                       value="{{ session['username'] }}"
-                       required>{% endif %}
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-success">Submit</button>
-                  <a href="{{ url_for('account', review_id=review._id) }}"
-                   class="btn btn_small btn-danger btn_delete">Cancel</a>
-            </div>
+    <div class="container-fluid edit_container">
+        <div class="row card bg-success edit-form">
+            <form action="{{ url_for('update_review', review_id=review._id) }}" method="POST" class="col s12">
+                <h1>Edit Review</h1>
+                <div class="form-group">
+                    <label for="review_name"><h3>Review Name:</h3></label>
+                    <input type="text" class="form-control" id="review_name" aria-describedby="review_name"
+                           name="review_name" value="{{ review.review_name }}"
+                           placeholder="Enter review name">
+                </div>
+                <div class="form-group">
+                    <label for="book_name"><h3><span class="book-icon"><i class="fas fa-book"></i></span> Book Title:
+                    </h3></label>
+                    <input type="text" class="form-control" id="book_name" name="book_name" placeholder="Book Title"
+                           value="{{ review.book_name }}">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1"><h3><i class="fas fa-user-edit"></i> Author:</h3></label>
+                    <label for="author"></label><input type="text" class="form-control" id="author" name="author"
+                                                       placeholder="Author" value="{{ review.author }}">
+                </div>
+                <div class="form-group">
+                    <label for="review_description"><h3><span class="review-icon"><i class="fas fa-comment"></i></span>
+                        Review:</h3></label>
+                    <textarea class="form-control" id="review_description" rows="5"
+                              name="review_description">{{ review.review_description }}</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="rating_select"><h3>Rating</h3></label>
+                    <label for="rating"></label><select class="form-control" id="rating" name="rating" type="text">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label for="date"><h3>Date:</h3></label>
+                    <input type="text" class="form-control" id="date" aria-describedby="date" value="{{ review.date }}"
+                           name="date"
+                           placeholder="Enter Date">
+                </div>
+                <div class="form-group">
+                    <label for="username"><h3>Username</h3></label>{% if session['username'] != None %}
+                    <input id="username" name="username" type="text" placeholder="Username"
+                           value="{{ session['username'] }}"
+                           required>{% endif %}
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                    <a href="{{ url_for('account', review_id=review._id) }}"
+                       class="btn btn_small btn-danger btn_delete">Cancel</a>
+                </div>
 
-        </form>
+            </form>
+        </div>
     </div>
-
+    <br>
 
 {% endblock %}

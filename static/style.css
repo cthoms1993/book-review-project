@@ -1,5 +1,5 @@
 body {
-    margin: 0 auto;
+    margin:0 auto;
     background-color: #ddd;
     overflow-x: hidden;
     color: white;
@@ -17,3 +17,5 @@ body {
 .review-icon{
     color: lawngreen;
 }
+
+
