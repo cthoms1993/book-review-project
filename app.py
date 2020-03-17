@@ -9,7 +9,6 @@ if path.exists("env.py"):
     import env
 
 app = Flask(__name__)
-app.config.from_pyfile('env.py')
 app.config["SECRET_KEY"] = os.environ.get('SECRET_KEY')
 app.config["MONGODB_NAME2"] = os.environ.get('MONGODB_NAME2')
 app.config["MONGODB_NAME"] = os.environ.get('MONGODB_NAME')
