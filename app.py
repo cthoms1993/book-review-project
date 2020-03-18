@@ -30,7 +30,7 @@ def index():
 def login_page():
     """creates the ability to log in to your account if your username is recognised."""
     if 'username' in session:
-        flash('You are logged in')
+        flash('')
         return redirect(url_for('account'))
 
     return render_template('login.html')

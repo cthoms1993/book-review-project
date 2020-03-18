@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="" />
+    <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bookbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bookbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,14 +103,7 @@
       <workItem from="1583598508865" duration="517000" />
       <workItem from="1583601829654" duration="49912000" />
       <workItem from="1584166045906" duration="19822000" />
-      <workItem from="1584279156791" duration="12563000" />
-    </task>
-    <task id="LOCAL-00009" summary="testing gitignore">
-      <created>1582648181341</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1582648181341</updated>
+      <workItem from="1584279156791" duration="19431000" />
     </task>
     <task id="LOCAL-00010" summary="testing gitignore">
       <created>1583006613470</created>
@@ -441,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584465522193</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="removed duplicated env.py path">
+      <created>1584465705258</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1584465705258</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +468,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated requirements.txt" />
     <MESSAGE value="started on book store page - adding initial html." />
     <MESSAGE value="swapped matererialize for bootswatch theme." />
     <MESSAGE value="&quot; added reviews to my reviews section for session user only&quot;" />
@@ -486,21 +492,22 @@
     <MESSAGE value="general update for review" />
     <MESSAGE value="added eny.py to gitignore" />
     <MESSAGE value="set to only access env  if env.py exists." />
-    <option name="LAST_COMMIT_MESSAGE" value="set to only access env  if env.py exists." />
+    <MESSAGE value="removed duplicated env.py path" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed duplicated env.py path" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2197" y="116" key="#Inspections" timestamp="1583531445719">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="2197" y="116" key="#Inspections/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531445719" />
-    <state x="2302" y="105" key="CommitChangelistDialog2" timestamp="1584465521459">
+    <state x="2302" y="105" key="CommitChangelistDialog2" timestamp="1584465704528">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="-2491" y="44" key="CommitChangelistDialog2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855858681" />
     <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270740237" />
     <state x="306" y="52" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1582648180542" />
     <state x="344" y="52" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584295388544" />
-    <state x="2302" y="105" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584465521459" />
+    <state x="2302" y="105" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584465704528" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1584295382916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -518,7 +525,7 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="482" y="163" key="Github.UntrackedFilesDialog/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582574825620" />
-    <state width="1326" height="132" key="GridCell.Tab.0.bottom" timestamp="1584465676160">
+    <state width="1325" height="164" key="GridCell.Tab.0.bottom" timestamp="1584563787457">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.bottom/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
@@ -526,9 +533,9 @@
     <state width="1326" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
     <state width="1224" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657693" />
-    <state width="1877" height="132" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584295420310" />
-    <state width="1326" height="132" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584465676160" />
-    <state width="1326" height="132" key="GridCell.Tab.0.center" timestamp="1584465676159">
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584466509032" />
+    <state width="1325" height="164" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584563787457" />
+    <state width="1325" height="164" key="GridCell.Tab.0.center" timestamp="1584563787457">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.center/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
@@ -536,9 +543,9 @@
     <state width="1326" height="239" key="GridCell.Tab.0.center/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
     <state width="1224" height="293" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
-    <state width="1877" height="132" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584295420310" />
-    <state width="1326" height="132" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584465676159" />
-    <state width="1326" height="132" key="GridCell.Tab.0.left" timestamp="1584465676159">
+    <state width="1877" height="164" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584466509031" />
+    <state width="1325" height="164" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584563787457" />
+    <state width="1325" height="164" key="GridCell.Tab.0.left" timestamp="1584563787457">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.left/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
@@ -546,9 +553,9 @@
     <state width="1326" height="239" key="GridCell.Tab.0.left/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565638" />
     <state width="1224" height="239" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1583155691723" />
     <state width="1224" height="293" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
-    <state width="1877" height="132" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584295420310" />
-    <state width="1326" height="132" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584465676159" />
-    <state width="1326" height="132" key="GridCell.Tab.0.right" timestamp="1584465676160">
+    <state width="1877" height="164" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584466509031" />
+    <state width="1325" height="164" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584563787457" />
+    <state width="1325" height="164" key="GridCell.Tab.0.right" timestamp="1584563787457">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.right/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
@@ -556,8 +563,8 @@
     <state width="1326" height="239" key="GridCell.Tab.0.right/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
     <state width="1224" height="293" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583597657692" />
-    <state width="1877" height="132" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584295420310" />
-    <state width="1326" height="132" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584465676160" />
+    <state width="1877" height="164" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584466509032" />
+    <state width="1325" height="164" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584563787457" />
     <state x="397" y="173" key="MultipleFileMergeDialog" timestamp="1583011026222">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -566,14 +573,14 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="491" y="179" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1582648855955" />
-    <state x="2197" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584465530550">
+    <state x="2197" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584465727112">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="-2459" y="190" key="Vcs.Push.Dialog.v2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855865983" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270747725" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1582648208461" />
     <state x="389" y="225" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584295400445" />
-    <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584465530550" />
+    <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584465727112" />
     <state x="131" y="110" width="1658" height="859" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583701792672">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -602,6 +609,6 @@
     <state x="2268" y="195" width="672" height="678" key="search.everywhere.popup/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583876003589" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1584465676151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1584563787457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
