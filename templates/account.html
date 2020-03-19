@@ -4,13 +4,11 @@
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 {% for message in messages %}
-                    <h1 class="display-3 text-center main-title"> welcome back {{ session['username'] }}!</h1>
+                    <h1 class=" text-center main-title"> welcome back {{ session['username'] }}!</h1>
                 {% endfor %}
             {% endif %}
         {% endwith %}
     </div>
-    <br>
-    <br>
     <div class="container-fluid account-container">
         <h1 class="main-title account-title display-3">Your Reviews</h1>
         {% for review in reviews %}

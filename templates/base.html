@@ -16,33 +16,37 @@
 </head>
 <body>
 <section>
- <h1 class="display-3 main-title text-center">Read and review - The simple online book review site!</h1>
-    <br>
-    <br>
-    <br>
-    <div class="book_container">
-        <ul class="book_column">
-            {% if 'username' in session %}
-                <li><a style="z-index: 2; left:10px" href="{{ url_for('add_review') }}">Add review</a></li>
-                <li><a style="z-index: 1" href="{{ url_for('account') }}">Your Reviews</a></li>
-            {% endif %}
-        </ul>
+    <div class="container-fluid title-container">
+        <div class="row title-row">
+            <div class="col-12 title-col">
+                <h1 class="display-3 main-title text-center">Read and review - The simple book review site!</h1>
+            </div>
+        </div>
 
-        <ul class="book_column">
-            <li><a style="z-index: 3; left: 15px" href="{{ url_for('index') }}">Home</a></li>
-            <li><a style="z-index: 2" href="{{ url_for('get_reviews') }}">All reviews</a></li>
-            <li><a style="z-index: 1; left: 25px" href="{{ url_for('store') }}">Book store</a></li>
-        </ul>
+        <div class="book_container">
+            <ul class="book_column">
+                {% if 'username' in session %}
+                    <li><a style="z-index: 2; left:10px" href="{{ url_for('add_review') }}">Add review</a></li>
+                    <li><a style="z-index: 1; left:25px" href="{{ url_for('account') }}">Your Reviews</a></li>
+                    {% else %}
+                     <li><a style="z-index: 1; left: 15px" href="{{ url_for('index') }}">Home</a></li>
+                {% endif %}
+            </ul>
 
-        <ul class="book_column">
-            {% if 'username' not in session %}
-                <li><a style="z-index: 3; left: -10px" href="{{ url_for('login_page') }}">Log in</a></li>
-                <li><a style="z-index: 2" href="{{ url_for('register') }}">Register</a></li>
-            {% else %}
-                <li><a style="z-index: 1; left: 15px" href="{{ url_for('logout') }}">Logout</a></li>
-            {% endif %}
-        </ul>
-    </div>
+            <ul class="book_column">
+                <li><a style="z-index: 2;" href="{{ url_for('get_reviews') }}">All reviews</a></li>
+                <li><a style="z-index: 1; left: 25px" href="{{ url_for('store') }}">Book store</a></li>
+            </ul>
+
+            <ul class="book_column">
+                {% if 'username' not in session %}
+                    <li><a style="z-index: 3; left: -10px" href="{{ url_for('login_page') }}">Log in</a></li>
+                    <li><a style="z-index: 2;" href="{{ url_for('register') }}">Register</a></li>
+                {% else %}
+                    <li><a style="z-index: 1; left: 15px" href="{{ url_for('logout') }}">Logout</a></li>
+                {% endif %}
+            </ul>
+        </div>
 </section>
 
 
