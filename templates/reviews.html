@@ -4,10 +4,7 @@
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 {% for message in messages %}
-                    <div class="alert alert-dismissible alert-success">
-                        <button class="close" type="button" data-dismiss="alert">&times;</button>
-                        <strong>{{ message }}</strong>
-                    </div>
+                     <h1 class=" text-center main-title"> Review added!</h1>
                 {% endfor %}
             {% endif %}
         {% endwith %}

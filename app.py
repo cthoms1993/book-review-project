@@ -30,7 +30,7 @@ def index():
 def login_page():
     """creates the ability to log in to your account if your username is recognised."""
     if 'username' in session:
-        flash('')
+        flash('welcome back!')
         return redirect(url_for('account'))
 
     return render_template('login.html')
@@ -105,12 +105,14 @@ def update_review(review_id):
                        'date': request.form.get('date'),
                        'book_cover': request.form.get('book_cover')
                    })
+    flash('Reviews edited successfully')
     return redirect(url_for('account'))
 
 
 @app.route('/insert_review', methods=['POST'])
 def insert_review():
     reviews.insert_one(request.form.to_dict())
+    flash('')
     return redirect(url_for('get_reviews'))
 
 
