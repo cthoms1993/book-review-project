@@ -28,14 +28,14 @@
                 {% if 'username' in session %}
                     <li><a style="z-index: 2; left:10px" href="{{ url_for('add_review') }}">Add review</a></li>
                     <li><a style="z-index: 1; left:25px" href="{{ url_for('account') }}">Your Reviews</a></li>
-                    {% else %}
-                     <li><a style="z-index: 1; left: 15px" href="{{ url_for('index') }}">Home</a></li>
+                {% else %}
+                    <li><a style="z-index: 1; left: 15px" href="{{ url_for('index') }}">Home</a></li>
                 {% endif %}
             </ul>
 
             <ul class="book_column">
                 <li><a style="z-index: 2;" href="{{ url_for('get_reviews') }}">All reviews</a></li>
-                <li><a style="z-index: 1; left: 25px" href="{{ url_for('store') }}">Book store</a></li>
+                <li><a style="z-index: 1; left: 25px" href="{{ url_for('contact') }}">Contact us</a></li>
             </ul>
 
             <ul class="book_column">
@@ -47,6 +47,7 @@
                 {% endif %}
             </ul>
         </div>
+    </div>
 </section>
 
 

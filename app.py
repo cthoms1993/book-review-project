@@ -137,10 +137,10 @@ def account():
     return render_template("account.html", reviews=mongo.db.reviews.find({'username': session.get('username')}))
 
 
-@app.route('/store')
-def store():
+@app.route('/contact')
+def contact():
     """still in development"""
-    return render_template('store.html')
+    return render_template('contact.html')
 
 
 if __name__ == '__main__':
