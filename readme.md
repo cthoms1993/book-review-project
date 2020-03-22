@@ -21,7 +21,7 @@ all environmental variables are held in a .py file that has been GIT ignored for
 
 
 ## User design experience
-**To view my user design experience please visit the User design experience folder link below where I have documents for strategy,scope and structure, and skeleton -**
+**To view my user design experience please visit the User design experience folder link below where I have documents for strategy, scope, structure, and writeframes - **
 [user design experience](https://github.com/cthoms1993/book-review-project/tree/master/User%20design%20experience)
 
 ## Technologies used:
