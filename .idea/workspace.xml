@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +47,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\PycharmProjects\book_review\User design experience" />
+      <recent name="C:\Users\chris\PycharmProjects\book_review\templates\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chris\PycharmProjects\book_review\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chris\PycharmProjects\book_review\templates\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,14 +100,7 @@
       <workItem from="1583598508865" duration="517000" />
       <workItem from="1583601829654" duration="49912000" />
       <workItem from="1584166045906" duration="19822000" />
-      <workItem from="1584279156791" duration="26181000" />
-    </task>
-    <task id="LOCAL-00013" summary="linked DB to the collapsible reviews view.">
-      <created>1583011042676</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1583011042676</updated>
+      <workItem from="1584279156791" duration="30354000" />
     </task>
     <task id="LOCAL-00014" summary="added create review page and linked to DB , tested and working correctly">
       <created>1583178762502</created>
@@ -446,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584628530506</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="added user design experience folder.">
+      <created>1584783286481</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1584783286481</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +465,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="positioning of log in box changed and button colour" />
     <MESSAGE value="position of register section and button colour" />
     <MESSAGE value="added date selection to forms" />
     <MESSAGE value="added font-awesome icons to main review page" />
@@ -491,21 +489,22 @@
     <MESSAGE value="changed flash to a welcome header." />
     <MESSAGE value="changed title sizes and added main title to the top of the page" />
     <MESSAGE value="changed order books in title show up." />
-    <option name="LAST_COMMIT_MESSAGE" value="changed order books in title show up." />
+    <MESSAGE value="added user design experience folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="added user design experience folder." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2197" y="116" key="#Inspections" timestamp="1583531445719">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="2197" y="116" key="#Inspections/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531445719" />
-    <state x="2302" y="105" key="CommitChangelistDialog2" timestamp="1584628529678">
+    <state x="2302" y="105" key="CommitChangelistDialog2" timestamp="1584783285605">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="-2491" y="44" key="CommitChangelistDialog2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855858681" />
     <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270740237" />
     <state x="306" y="52" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1582648180542" />
     <state x="344" y="52" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584295388544" />
-    <state x="2302" y="105" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584628529678" />
+    <state x="2302" y="105" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584783285605" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1584295382916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -571,14 +570,14 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="491" y="179" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1582648855955" />
-    <state x="2197" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584628536682">
+    <state x="2197" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584783292535">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="-2459" y="190" key="Vcs.Push.Dialog.v2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855865983" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270747725" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1582648208461" />
     <state x="389" y="225" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584295400445" />
-    <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584628536682" />
+    <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584783292535" />
     <state x="131" y="110" width="1658" height="859" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583701792672">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
