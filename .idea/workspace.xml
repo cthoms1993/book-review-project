@@ -4,10 +4,7 @@
     <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/addreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addreview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/editreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editreview.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +101,7 @@
       <workItem from="1583598508865" duration="517000" />
       <workItem from="1583601829654" duration="49912000" />
       <workItem from="1584166045906" duration="19822000" />
-      <workItem from="1584279156791" duration="37704000" />
-    </task>
-    <task id="LOCAL-00019" summary="navbar background - heroku test">
-      <created>1583265635803</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1583265635803</updated>
+      <workItem from="1584279156791" duration="38591000" />
     </task>
     <task id="LOCAL-00020" summary="navbar background - heroku test">
       <created>1583265855540</created>
@@ -449,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584872857513</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="added social links and copyright to header">
+      <created>1584970359168</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1584970359168</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +466,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changed review layout and colours" />
     <MESSAGE value="changed layout of add review" />
     <MESSAGE value="updated colours and titles" />
     <MESSAGE value="final commit of the day - testing heroku still working" />
@@ -494,19 +490,21 @@
     <MESSAGE value="edit of UDX" />
     <MESSAGE value="added contact us page instead of book store" />
     <MESSAGE value="fixed error on reg page" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed error on reg page" />
+    <MESSAGE value="added social links and copyright to header" />
+    <option name="LAST_COMMIT_MESSAGE" value="added social links and copyright to header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2197" y="116" key="#Inspections" timestamp="1583531445719">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="2197" y="116" key="#Inspections/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531445719" />
-    <state x="344" y="52" key="CommitChangelistDialog2" timestamp="1584872856710">
+    <state x="344" y="52" key="CommitChangelistDialog2" timestamp="1584970358372">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-2491" y="44" key="CommitChangelistDialog2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855858681" />
     <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270740237" />
     <state x="306" y="52" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1582648180542" />
+    <state x="344" y="52" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584970358372" />
     <state x="344" y="52" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584872856710" />
     <state x="2302" y="105" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584783285605" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1584295382916">
@@ -526,44 +524,44 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="482" y="163" key="Github.UntrackedFilesDialog/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1582574825620" />
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1584970320083">
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1584971173214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.bottom/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
     <state width="1877" height="192" key="GridCell.Tab.0.bottom/-2736.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1583853450879" />
     <state width="1326" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584970320083" />
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584971173214" />
     <state width="1877" height="164" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584875090485" />
     <state width="1325" height="164" key="GridCell.Tab.0.bottom/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584780809901" />
-    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1584970320083">
+    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1584971173214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.center/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
     <state width="1877" height="192" key="GridCell.Tab.0.center/-2736.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1583853450879" />
     <state width="1326" height="239" key="GridCell.Tab.0.center/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
-    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584970320083" />
+    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584971173214" />
     <state width="1877" height="164" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584875090485" />
     <state width="1325" height="164" key="GridCell.Tab.0.center/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584780809901" />
-    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1584970320083">
+    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1584971173214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.left/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
     <state width="1877" height="192" key="GridCell.Tab.0.left/-2736.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1583853450878" />
     <state width="1326" height="239" key="GridCell.Tab.0.left/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565638" />
     <state width="1224" height="239" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1583155691723" />
-    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584970320083" />
+    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584971173214" />
     <state width="1877" height="164" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584875090485" />
     <state width="1325" height="164" key="GridCell.Tab.0.left/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584780809901" />
-    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1584970320083">
+    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1584971173214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1326" height="192" key="GridCell.Tab.0.right/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583858591255" />
     <state width="1877" height="192" key="GridCell.Tab.0.right/-2736.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1583853450879" />
     <state width="1326" height="239" key="GridCell.Tab.0.right/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270565639" />
     <state width="1224" height="239" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1583155691724" />
-    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584970320083" />
+    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584971173214" />
     <state width="1877" height="164" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584875090485" />
     <state width="1325" height="164" key="GridCell.Tab.0.right/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584780809901" />
     <state x="397" y="173" key="MultipleFileMergeDialog" timestamp="1583011026222">
@@ -574,12 +572,13 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="491" y="179" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1582648855955" />
-    <state x="389" y="225" key="Vcs.Push.Dialog.v2" timestamp="1584872861447">
+    <state x="389" y="225" key="Vcs.Push.Dialog.v2" timestamp="1584970363716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-2459" y="190" key="Vcs.Push.Dialog.v2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855865983" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270747725" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1582648208461" />
+    <state x="389" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584970363716" />
     <state x="389" y="225" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584872861447" />
     <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584783292535" />
     <state x="131" y="110" width="1658" height="859" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583701792672">
@@ -610,6 +609,6 @@
     <state x="2268" y="195" width="672" height="678" key="search.everywhere.popup/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583876003589" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1584970320076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/book_review$book_review.coverage" NAME="book_review Coverage Results" MODIFIED="1584971173205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
