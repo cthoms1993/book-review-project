@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="container-fluid edit_container">
+    <div class="container-fluid crud-container">
         <div class="row card bg-success edit-form">
             <form action="{{ url_for('update_review', review_id=review._id) }}" method="POST" class="col s12">
                 <h1>Edit Review</h1>
@@ -58,6 +58,6 @@
             </form>
         </div>
     </div>
-    <br>
+
 
 {% endblock %}

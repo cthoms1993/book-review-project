@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="container-fluid add-container">
+    <div class="container-fluid crud-container">
         <div class="row card bg-info add-review-form">
             <form action="{{ url_for('insert_review') }}" method="POST" class="col s12">
-                <h1> Add Review</h1>
+                <h1>Add Review</h1>
                 <div class="form-group">
                     <label for="review_name"><h3> Review Name:</h3></label>
                     <input type="text" class="form-control" id="review_name" aria-describedby="review_name"
@@ -58,5 +58,5 @@
             </form>
         </div>
     </div>
-<br>
+
 {% endblock %}
