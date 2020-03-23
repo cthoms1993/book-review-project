@@ -1,5 +1,5 @@
 body {
-    margin:0 auto;
+    margin: 0 auto;
     background-color: #ddd;
     overflow-x: hidden;
     color: white;
@@ -7,22 +7,33 @@ body {
 }
 
 /*------icons-----*/
-.book-icon{
+.book-icon {
     color: darkred;
 }
-.star-icon{
+
+.star-icon {
     color: gold;
 }
 
-.review-icon{
+.review-icon {
     color: lawngreen;
 }
 
 
-.welcome{
+.welcome {
     font-size: 200px;
 }
 
 
-
-
+/*-----media breaks-----*/
+@media (max-width: 812px) {
+    .simple {
+        font-size: 40px;
+    }
+    .fab{
+        font-size:large;
+    }
+    .copyright{
+        font-size:medium;
+    }
+}
