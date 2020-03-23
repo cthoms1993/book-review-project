@@ -21,7 +21,7 @@ all environmental variables are held in a .py file that has been GIT ignored for
 
 
 ## User design experience
-**To view my user design experience please visit the User design experience folder link below where I have documents for strategy, scope, structure, and writeframes - **
+**To view my user design experience please visit the User design experience folder link below where I have documents for strategy, scope, structure, and writeframes** -
 [user design experience](https://github.com/cthoms1993/book-review-project/tree/master/User%20design%20experience)
 
 ## Technologies used:
@@ -39,7 +39,7 @@ all environmental variables are held in a .py file that has been GIT ignored for
 The website was coded on Pycharm IDE,  I used a local GIT repository for version control committing every so often once I made changes or additions to my code using Git commit and then git push to push the changed to my online Git repository . once I had committed it locally, I then pushed it to my online repository in GITHUB.I completed this action throughout the project to maintain a high standard of version control. Once pushed to the online GITHUB repository it was made live by launching the site Through Heroku, the live site can be found here - https://thomson-book-review.herokuapp.com/
 
 ## Testing
-The site was tested locally and on heroku  using Chrome development tools.
+The application was tested locally and on heroku using Chrome development tools through out the build process and when application was finished.
 It was tested on landscape and portrait mode on Google pixel 2, Google pixel 3, Galaxy S5, Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro and responsive desktop.
 
 ## Future features

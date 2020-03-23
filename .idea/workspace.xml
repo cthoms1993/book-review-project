@@ -4,8 +4,6 @@
     <list default="true" id="17023482-6ebf-472b-9c63-fec2ed90cd43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,14 +100,7 @@
       <workItem from="1583598508865" duration="517000" />
       <workItem from="1583601829654" duration="49912000" />
       <workItem from="1584166045906" duration="19822000" />
-      <workItem from="1584279156791" duration="40545000" />
-    </task>
-    <task id="LOCAL-00021" summary="begin working on nav books">
-      <created>1583267832348</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1583267832348</updated>
+      <workItem from="1584279156791" duration="41332000" />
     </task>
     <task id="LOCAL-00022" summary="all books added to navbar">
       <created>1583269898216</created>
@@ -447,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584971214854</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="added media breaks for title">
+      <created>1584973354006</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1584973354006</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +465,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated colours and titles" />
     <MESSAGE value="final commit of the day - testing heroku still working" />
     <MESSAGE value="added cancel button on edit form." />
     <MESSAGE value="wired up buy books button to redirect to book seller site for now" />
@@ -492,20 +489,21 @@
     <MESSAGE value="fixed error on reg page" />
     <MESSAGE value="added social links and copyright to header" />
     <MESSAGE value="added anchor tags to social links" />
-    <option name="LAST_COMMIT_MESSAGE" value="added anchor tags to social links" />
+    <MESSAGE value="added media breaks for title" />
+    <option name="LAST_COMMIT_MESSAGE" value="added media breaks for title" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2197" y="116" key="#Inspections" timestamp="1583531445719">
       <screen x="1920" y="0" width="1368" height="912" />
     </state>
     <state x="2197" y="116" key="#Inspections/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1583531445719" />
-    <state x="344" y="52" key="CommitChangelistDialog2" timestamp="1584971214240">
+    <state x="344" y="52" key="CommitChangelistDialog2" timestamp="1584973353327">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-2491" y="44" key="CommitChangelistDialog2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855858681" />
     <state x="245" y="44" key="CommitChangelistDialog2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270740237" />
     <state x="306" y="52" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1582648180542" />
-    <state x="344" y="52" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584971214240" />
+    <state x="344" y="52" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584973353327" />
     <state x="344" y="52" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584872856710" />
     <state x="2302" y="105" key="CommitChangelistDialog2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584783285605" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1584295382916">
@@ -574,13 +572,13 @@
     </state>
     <state x="491" y="179" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1582648855955" />
     <state x="689" y="212" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584972389238" />
-    <state x="389" y="225" key="Vcs.Push.Dialog.v2" timestamp="1584971221297">
+    <state x="389" y="225" key="Vcs.Push.Dialog.v2" timestamp="1584973358554">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-2459" y="190" key="Vcs.Push.Dialog.v2/-2736.0.1368.912/0.0.1920.1080@-2736.0.1368.912" timestamp="1583855865983" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912/2736.0.1280.1024@0.0.1368.912" timestamp="1583270747725" />
     <state x="277" y="190" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1582648208461" />
-    <state x="389" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584971221297" />
+    <state x="389" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584973358554" />
     <state x="389" y="225" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@0.0.1920.1080" timestamp="1584872861447" />
     <state x="2197" y="190" key="Vcs.Push.Dialog.v2/1920.0.1368.912/0.0.1920.1080@1920.0.1368.912" timestamp="1584783292535" />
     <state x="131" y="110" width="1658" height="859" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584972358960">
